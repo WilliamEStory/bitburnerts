@@ -1,7 +1,7 @@
 /** @param {NS} ns */
 export async function main(ns) {
   // ratio of programs to try out
-  const [hacks, weakens, grows] = [1, 4, 6]
+  const [hacks, weakens, grows] = [1, 3, 12]
   // cost of each script to run
   const [hackCost, weakenCost, growCost] = [1.70, 1.75, 1.75]
 

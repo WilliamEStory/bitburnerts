@@ -5,6 +5,7 @@ export async function main(ns) {
     ns.alert("target not specified --target")
     return
   }
+  // eslint-disable-next-line no-constant-condition
   while(true) {
     await ns.grow(target)
   }
