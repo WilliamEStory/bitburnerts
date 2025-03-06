@@ -70,7 +70,7 @@ export async function main(ns) {
   ns.killall(hostServer, true)
 
   ns.tprint(`Copying scripts to ${hostServer}`)
-  const scriptFiles = ns.ls("home", "/megaScripts")
+  const scriptFiles = ns.ls("home", "/scripts")
   ns.tprint(`copying files: ${scriptFiles}`)
   const copyStatus = ns.scp(scriptFiles, hostServer, "home")
   
